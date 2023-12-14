@@ -75,6 +75,6 @@ search.addEventListener("click", async () => {
     weatherDetails.classList.add("fadeIn");
     container.style.height = "590px";
   } catch (error) {
-    alert(`데이터 요청에 실패하였습니다. ${error}`);
+    alert(error);
   }
 });
